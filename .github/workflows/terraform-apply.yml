@@ -8,7 +8,7 @@ on:
 jobs:
   terraform-apply:
     runs-on: ubuntu-latest
-    environment: production
+    environment: production1
  
     steps:
       - uses: actions/checkout@v4
